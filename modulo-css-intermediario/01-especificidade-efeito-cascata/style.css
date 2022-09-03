@@ -1,0 +1,24 @@
+.container-cascata {
+    background-color: aqua;
+}
+
+.container-cascata {
+    background-color: orange;
+}
+
+
+/*---Especificidade---*/
+
+/*Quanto mais especifico for declarado o seletor, maior a prioridade da alteração*/
+
+p {
+    background-color: lightblue;
+}
+
+.container-especificidade p {
+    background-color: yellowgreen;
+}
+
+#meu-paragrafo {
+    background-color: violet;
+} /*O id é o mais específico de todos, tem mais o peso maior, é a alteração(cor) que vai prevalecer*/
