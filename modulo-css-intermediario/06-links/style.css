@@ -1,0 +1,18 @@
+a {
+    cursor: progress;
+    margin: 20px;
+    padding: 10px;
+}
+
+a:visited { /*Depois de ter clicado*/
+    color: orange;
+}
+
+a:active { /*Ao ficar pressionado o click*/
+    color: red;
+}
+
+a:hover {/*Ao ficar passar o mouse em cima*/
+    background-color: brown;
+    color: white;
+}
