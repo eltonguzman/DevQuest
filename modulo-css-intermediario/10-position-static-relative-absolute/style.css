@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+.elemento {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico {
+    background-color: crimson;
+    position: static; /*Padrão do css, não precisava declarar*/
+    /*Não é possível alterar a posição, estático*/
+}
+
+.elemento-relativo {
+    background-color: coral;
+    position: relative; /*Agora pode movimentar a posição*/
+    left: 100px;
+}
+
+.elemento-absoluto {
+    background-color: darkcyan;
+    position: absolute; /*Sobrepõe sobre os outros elementos blocks*/
+    left: 180px;
+}
+
+
+.elemento-relativo-com-filho {
+    background-color: rgb(214, 212, 212);
+    width: 550px;
+    height: 350px;
+    position: relative;
+}
+/*O elemento absoluto vai ficar dentro do elemento relativo. Não vai ficar totalmente solto pela tela toda. Poderá se mover dentro do elemento relativo, limitar a posição do absoluto.*/
+.elemento-absoluto-com-pai {
+    background-color: darkcyan;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+}
