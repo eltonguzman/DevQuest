@@ -1,0 +1,17 @@
+.fa-facebook {
+    color: blue;
+    font-size: 100px;
+}
+
+.fa-facebook:hover {
+    color: red;
+}
+
+.fa-instagram {
+    color: purple;
+    font-size: 100px;
+}
+
+.fa-instagram:hover {
+    color: red;
+}
