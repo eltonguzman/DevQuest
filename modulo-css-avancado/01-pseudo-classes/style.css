@@ -1,0 +1,28 @@
+/* seletor:pseudo-classe {
+    propriedade: valor;
+} */
+
+/* p:first-child {
+    color: aquamarine;
+}
+
+p:last-child {
+    color: blueviolet;
+}
+
+p:not(.padrao) {
+    color: yellow;
+} */
+
+/*Elementos filhos = odd (impar), even (par), 3n (estiliar em 3 em 3)*/
+/* li:nth-child(odd) { 
+    color: red;
+} */
+
+li:nth-last-child(1) { /*Começa estilizar o último elemento*/
+    color: red;
+}
+
+p:only-child {
+    color: darkcyan;
+}
