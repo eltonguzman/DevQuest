@@ -1,0 +1,42 @@
+/* seletor::pseudo-elemento {
+    propriedade: valor;
+} */
+
+.first-letter::first-letter {
+    color: coral;
+}
+
+.first-line::first-line {
+    color: teal;
+}
+
+ /*Combinação dos dois pseudo-elementos*/
+.first-line::first-letter {
+    color: brown;
+}
+
+/*Estilizar os marcadores da lista*/
+li::marker {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.before::before {
+    content: ""; 
+    background: url(bravecrest.png);
+    display: inline-block;
+    width: 85px; /*Referente ao tamanho do content*/
+    height: 85px;/*Referente ao tamanho do content*/
+    background-size: 85px 85px; /*Referente ao tamanho da imagem*/
+    background-repeat: no-repeat;    
+}
+
+.after::after {
+    content: ""; 
+    background: url(bravecrest.png);
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background-size: 85px 85px;
+    background-repeat: no-repeat;    
+}
