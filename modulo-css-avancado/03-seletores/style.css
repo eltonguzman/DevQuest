@@ -1,0 +1,55 @@
+h1 {
+    color: green;
+}
+
+.paragrafo {
+    color: #2C25BE;
+}
+
+#menu {
+    margin-left: 100px;
+}
+
+* {
+    padding: 0;
+    
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+p, span {
+    font-size: 15px;
+}
+
+.sobre .texto {
+    color: peru;
+    font-size: 20px;
+}
+
+div > p {
+    color: #74BE25;
+    font-size: 20px;
+}
+
+div + p { /*Estiliza o PRIMEIRO seletor APÓS a div*/
+    color: purple;
+    font-size: 20px;
+}
+
+a[target=_blank] { /*Estiliza o elemento dentro do seletor "a" (link)*/
+    color: red;
+}
+
+a[href="google.com"] {
+    color: darkcyan;
+}
